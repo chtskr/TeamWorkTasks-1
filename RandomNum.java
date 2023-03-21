@@ -29,6 +29,7 @@ public class RandomNum {
 
             double randomNumber = Math.random() * max;
             System.out.println("0 ile " + max + " arasında rastgele sayı: " + randomNumber);
+            int randonNumber = (int) Math.random()* max;
         }
     }
 
