@@ -51,7 +51,9 @@ public class Common2Arrays {
         //  bu satirdan onceki kodlari degistirmeyiniz
         // array1 and array2  kullan
 
-
+        if ((array1[0] == array2[0]) || (array1[array1.length - 1] == array2[array2.length - 1])) {
+            System.out.println("true");
+        } else System.out.println("false");
     }
 
 }
