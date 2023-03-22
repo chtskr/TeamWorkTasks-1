@@ -10,10 +10,13 @@ public class perfectSquare {
         System.out.println("Lütfen bir sayi yazin");
         int sayi = input.nextInt();
 
+        for (int i = 0; i < sayi; i++) {
+            if (i * i == sayi)
+                System.out.println("perfect sayı");
+
+        }
+
     }
-
-}
-
 
     /*
     Given a positive integer num, write a function which returns true if num is a perfect square else false.
