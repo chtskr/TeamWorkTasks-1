@@ -41,6 +41,6 @@ public class factorialNumber {
             count*=i;
      }
         System.out.println(count);
-
+        System.out.println();
     }
 }
