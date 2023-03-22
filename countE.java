@@ -52,7 +52,7 @@ public class countE {
                 harfSayisi++;
             }
         }
-        System.out.println(harfSayisi);
+        System.out.println(harfSayisi+ " ");
     }
 
 }
