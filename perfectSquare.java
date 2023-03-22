@@ -9,13 +9,15 @@ public class perfectSquare {
         Scanner input = new Scanner(System.in);
         System.out.println("Lütfen bir sayi yazin");
         int sayi = input.nextInt();
-
-        for (int i = 0; i < sayi; i++) {
-            if (i * i == sayi)
-                System.out.println("mükemmel sayı");
+        boolean flag = false;
+        for (int i = 1; i < sayi; i++) {
+            if (sayi != i * i) {
+                continue;
+            } else flag = true;
 
         }
-
+        System.out.println(flag);
+    }
     }
 
     /*
