@@ -33,12 +33,12 @@ public class checkNumberEven {
 
         int number = scanner.nextInt();
 
-        if (number % 2 == 0) {
-            System.out.println("true");
-        }else System.out.println("false");
 
-
+        System.out.println(isEven(number));
 
     }
-
+    private static boolean isEven(int number) {
+        if (number % 2 == 0) return true;
+        else return false;
+    }
 }
