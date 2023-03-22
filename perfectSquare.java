@@ -12,7 +12,7 @@ public class perfectSquare {
 
         for (int i = 0; i < sayi; i++) {
             if (i * i == sayi)
-                System.out.println("perfect sayı");
+                System.out.println("mükemmel sayı");
 
         }
 
