@@ -44,13 +44,15 @@ public class countE {
 
         String text = input.nextLine();
 
-        int count = 0;
-        for (int i = 0; i<text.length(); i++) {
-            if (text.charAt(i) == 'b') {
-                count++;
-            }
+        char harf = 'b';
+        int harfSayisi = 0;
 
-        }System.out.println(count);
+        for (int i = 0; i < text.length(); i++) {
+            if (text.charAt(i) == harf) {
+                harfSayisi++;
+            }
+        }
+        System.out.println(harfSayisi);
     }
 
 }
