@@ -62,7 +62,7 @@ public class days {
                 System.out.println("sunday");
                 break;
             default:
-                System.out.println("this is not a valid day");
+                System.out.println("this is not a valid days");
                 break;
         }
 
