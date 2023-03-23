@@ -24,7 +24,7 @@ public class RandomNum {
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
 
-            System.out.print("Lütfen bir sayı girin: ");
+            System.out.print("Lütfen bir sayı girinizz: ");
             int max = input.nextInt();
 
             double randomNumber = Math.random() * max;
