@@ -1,4 +1,4 @@
-package PROJECTS.MiniProjeler;
+package TeamWork.Project_01;
 
 import java.util.Scanner;
 
@@ -25,9 +25,9 @@ public class RandomNumberBetweenTwoNumbers {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("birinci sayi giriniz");
+        System.out.println("küçük sayiyi girinizz");
         int min = scanner.nextInt();
-        System.out.println("ikiinci sayi giriniz");
+        System.out.println("büyük sayiyi giriniz");
         int max = scanner.nextInt();
         double randomNumber = Math.random() * (max - min) + min;
         System.out.println((int)randomNumber);
