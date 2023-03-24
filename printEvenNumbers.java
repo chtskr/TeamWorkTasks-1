@@ -31,12 +31,12 @@ public class printEvenNumbers {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        int maxNum = scanner.nextInt();
+        int num = scanner.nextInt();
 
         ArrayList<Integer> list = new ArrayList<>();
 
         int count = 0;
-        for (int i = 0; i <= maxNum; i++) {
+        for (int i = 0; i <= num; i++) {
             if (i % 2 == 0) {
                 list.add(i);
             }

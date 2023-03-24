@@ -58,7 +58,9 @@ public class removeDuplicates {
 
         // kodu burdan baslatin ve bu satirdan onceki kodlari degistirmeyin
         //   useThisLine arrayini kullan
-
+        HashSet<Integer> hs = new HashSet<>(Arrays.asList(1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5));
+        hs.retainAll(hs);
+        System.out.println("hs = " + hs.size());
     }
 
 
